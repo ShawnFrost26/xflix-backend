@@ -1,0 +1,104 @@
+.xflix {
+  font-size: 25px !important;
+  font-weight: bold !important;
+  letter-spacing: 3px !important;
+  transform: scale(0.9,1);
+}
+
+.x-red {
+  color: #EE1520;
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 25px !important;
+  font-weight: bold;
+}
+
+.text-field {
+  width: 45%;
+  background-color: #181818;
+  border:1px solid #444D56;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 17px;
+  padding: 10px;
+  border-color: white;
+}
+.text-field::placeholder {
+  padding: 10px 30px;
+  font-size: 17px;
+}
+
+.text-field:focus {
+  outline: none;
+}
+
+.btn-upload {
+  padding: 0 30px;
+  background-color: #4CA3FC;
+  width: 115px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.upload-dialog {
+  /* padding: 100px;  */
+  color: #ccacac !important;
+}
+
+.upload-form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.upload-btn-groups {
+  display: flex !important;
+  justify-content: flex-start;
+}
+
+.MuiDialog-paper{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), #121212 !important;
+  color: white;
+}
+
+.MuiInputLabel-formControl {
+  color: white;
+}
+
+#upload-btn-cancel{
+  color:white
+}
+#upload-btn-submit{
+  background-color: #EE1520;
+}
+.css-1wc848c-MuiFormHelperText-root{
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+#upload-btn-submit{
+  color: #ffffff !important;
+}
+#alert-dialog-title{
+  color: #ffffff;
+}
+.MuiOutlinedInput-notchedOutline .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  border-color: white !important;
+}
+
+label{
+  color: #ffffff !important;
+}
+
+.MuiInputAdornment-root svg {
+  color: white;
+}
+#search-input{
+  color: white;
+}
+
+.MuiDialog-paper .MuiTextField-root .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
